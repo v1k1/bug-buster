@@ -1,0 +1,60 @@
+.tree-view {
+    list-style:none  
+}
+
+.tree-view li {
+    content: "\f00c";
+}
+
+.bug-tree div:hover {
+    background: blue; /* make this whatever you want */ 
+}
+
+.bug-content {
+    flex-grow: 1;
+}
+
+.bug-row {
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    align-items: center;
+}
+
+.bug-row:hover .bug-row-menu {
+    opacity: 100%;
+}
+
+.bug-row-padding-1 {
+    padding-left: 1em;
+}
+.bug-row-padding-2 {
+    padding-left: 2em;
+}
+.bug-row-padding-3 {
+    padding-left: 3em;
+}
+.bug-row-padding-4 {
+    padding-left: 4em;
+}
+.bug-row-padding-5 {
+    padding-left: 5em;
+}
+.bug-row-padding-6 {
+    padding-left: 6em;
+}
+.bug-row-padding-7 {
+    padding-left: 7em;
+}
+.bug-row-padding-8 {
+    padding-left: 8em;
+}
+
+
+.bug-row:hover {
+    background: #F5F5DC; /* make this whatever you want */ 
+}
+
+.bug-row-menu {
+    opacity: 0%;
+}
